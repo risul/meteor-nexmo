@@ -1,12 +1,12 @@
 Package.describe({
     name: 'risul:nexmo',
-    summary: 'Nexmo NodeJS client (pvela/nexmo) packaged for Meteor',
-    version: '1.0.0',
+    summary: 'Nexmo NodeJS client (pvela/easynexmo) packaged for Meteor',
+    version: '1.0.1',
     git: 'https://github.com/risul/meteor-nexmo'
 });
 
 Npm.depends({
-    easynexmo: '0.4.1'
+    easynexmo: '0.6.6'
 });
 
 Package.onUse(function(api) {
